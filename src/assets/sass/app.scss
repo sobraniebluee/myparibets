@@ -1,0 +1,33 @@
+.row-accounts{
+    margin: 4rem 0;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.pagination-wrapper{
+    display: flex;
+    align-items: center;
+    span {
+        margin-left: 1rem;
+    }
+}
+.pagination {
+    display: inline-block;
+}
+
+.pagination button {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}

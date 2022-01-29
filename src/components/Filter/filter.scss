@@ -1,0 +1,45 @@
+.filter{
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    min-height: 120px;
+    &__content{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0 1rem;
+    }
+    &__item{
+        &.active{
+            background: #33a852;
+        }
+        cursor: pointer;
+        margin:0.5rem 1rem;
+        padding:0.5rem 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 120px;
+        word-break:normal;
+        background: rgba(143, 143, 143, 0.96);
+        border-radius: 4px;
+        transition: 0.3s;
+        .text{
+            color:#fff;
+            outline: none;
+            box-shadow: none;
+            padding:0 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            &:focus,&:active{
+                outline: none;
+                box-shadow: none;
+            }
+        }
+        svg path{ fill:#fff;}
+    }
+}
